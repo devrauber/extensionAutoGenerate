@@ -1,0 +1,10 @@
+{
+  "name": "Minha Extensão",
+  "description": "Uma extensão simples para o Google Chrome",
+  "manifest_version": 3,
+  "version": "1.0",
+  "action": {
+    "default_title": "Teste title",
+    "default_popup": "popup.html"
+  }
+}

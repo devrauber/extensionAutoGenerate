@@ -1,0 +1,43 @@
+body {
+  font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+  font-size: 100%;
+  background-color: cadetblue;
+  width: 400px;
+}
+#status {
+  white-space: pre;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: flex;
+  gap: 10px;
+}
+h1 {
+  font-size: 20px;
+  text-align: center;
+}
+li {
+  width: 100%;
+  list-style-type: none;
+}
+
+div {
+  width: 100%;
+}
+
+div > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+span {
+  flex: 1;
+  margin-right: 10px;
+}
+
+input {
+  flex: 1;
+  text-align: center;
+  margin-right: 30px;
+}
